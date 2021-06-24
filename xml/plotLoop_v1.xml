@@ -1,0 +1,10 @@
+<procopts
+  tag="dummy"
+  gridpts_dm2="490"
+  gridpts_sin22th="490"
+/>
+<!-- procopts needs: "tag" (name to be appended to output), "gridpts_dm2" (number of points across dm2 dimension for raster plots; must be less than or equal to the gridpoints used in scan), "gridpts_sin22th" (same, but for sin22th) -->
+
+
+<dataset name="MicroBooNE" loc="/home/dcianci/Physics/MicroBooNEDisappearance/SBN_3plusN/GlobalFits_v2/apr22/ublim_sr.root" osc="2" use="1"/>
+<!-- dataset needs: "name" (name of dataset tree in root file), "loc" (location of root file containing said tree), "osc" (0: nue disappearance, 1: nue appearance, 2: numu disappearance), "use" (0: don't use, 1: use) -->

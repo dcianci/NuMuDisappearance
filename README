@@ -1,0 +1,9 @@
+Simple way to get things going:
+
+[from main directory]
+mkdir build
+cd build
+cmake ..
+make -j4
+
+Then you're all built! Running instructions can be found...
